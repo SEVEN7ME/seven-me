@@ -1,0 +1,15 @@
+server:
+  port: 80
+
+spring:
+  application:
+    name: seven-me-admin
+  profiles:
+    active: dev
+  jackson:
+    time-zone: GMT+8
+
+# 设置指定的包路径日志级别
+logging:
+  level:
+    xyz.sunf.seven.me: debug
