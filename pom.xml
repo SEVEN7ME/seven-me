@@ -7,12 +7,16 @@
     <artifactId>seven-me</artifactId>
     <packaging>pom</packaging>
     <version>1.0.0</version>
-    <modules>
-        <module>seven-me-admin</module>
-    </modules>
 
     <name>seven-me</name>
     <description>这是一个学习项目</description>
+
+    <modules>
+        <module>seven-me-admin</module>
+        <module>seven-me-core</module>
+        <module>seven-me-common</module>
+        <module>seven-me-learn</module>
+    </modules>
 
     <dependencies>
         <!--lombok插件-->

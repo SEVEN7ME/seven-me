@@ -27,6 +27,12 @@
             </exclusions>
         </dependency>
 
+        <dependency>
+            <groupId>xyz.sunf</groupId>
+            <artifactId>seven-me-core</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+
         <!-- undertow容器 -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
